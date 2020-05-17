@@ -1,4 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Generic badge](https://img.shields.io/badge/Version-0.0.1-brightgreen.svg)](https://shields.io/)
 
 # Pixl
 
@@ -23,7 +24,7 @@ Add Jitpack to your project build.gradle file
 Then add this dependency to your app build.gradle file.
 
       dependencies {
-	        implementation 'com.jibraniqbal.pixl:latest-release'
+	        implementation 'com.jibraniqbal.pixl:pixl:0.0.1'
 	}
 
 ## Usage
