@@ -17,6 +17,7 @@ Add Jitpack to your project build.gradle file
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
+			jcenter()
 		}
 	}
 }
@@ -31,6 +32,15 @@ Then add this dependency to your app build.gradle file.
       
 You can see the example with brightness, contrast, saturation with seekbar, given the value 0-100%
    
+   Add support for API-19 add this to you build.gradle
+   
+	android {
+		defaultConfig {
+			...
+			renderscriptTargetApi 19
+        		renderscriptSupportModeEnabled true
+		}
+	}
    Intialization
    
 	  val pixl = Pixl(context)
