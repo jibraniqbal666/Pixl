@@ -4,9 +4,15 @@ apply plugin: 'com.jfrog.bintray'
 version '0.0.1'
 group 'com.jibraniqbal.pixl'
 
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    archiveClassifier.set("sources")
+}
+
 publishing {
     publications {
         Production(MavenPublication) {
+            artifact sourcesJar
             artifact("$buildDir/outputs/aar/pixl-release.aar")
             groupId this.group
             artifactId 'pixl'
