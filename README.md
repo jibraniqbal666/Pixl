@@ -1,6 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Generic badge](https://img.shields.io/badge/Version-0.0.1-brightgreen.svg)](https://shields.io/)
 
+RenderScript have been deprecated from Android 12, Due to less users of library, I will not support it anymore.
+
 # Pixl
 
 Pixl is a library for image manipulation with power of renderScript which is faster than other ordinary solutions, currently it includes three basic scripts, brightness, contrast, saturation.
